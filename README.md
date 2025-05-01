@@ -49,7 +49,7 @@ Run the script from your terminal, providing the URL you want to scan as the fir
 python injected_links.py <URL_TO_SCAN>
 ```
 
-- Replace `https://www.example.com/page-with-dynamic-content` with the URL you want to scan.
+- Replace `<URL_TO_SCAN>` with the URL you want to scan.
 
 If no URL is provided, the script defaults to `https://example.com`.
 
