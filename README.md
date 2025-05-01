@@ -27,7 +27,7 @@ This can be valuable knowledge when trying to improve performance on search engi
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/aviel-fahl/injected-links.git](https://github.com/aviel-fahl/injected-links.git)
+    git clone https://github.com/aviel-fahl/injected-links.git
     cd injected-links
     ```
 
