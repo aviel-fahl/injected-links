@@ -1,4 +1,3 @@
-````markdown
 # Web Link Injection Detector using Playwright
 
 This Python script automates a web browser (Chromium) to navigate to a given URL and detect links (`<a>` tags with `href` attributes) that are dynamically injected into the page's DOM after the initial load, particularly on websites that use infinite scrolling or lazy loading.
@@ -28,7 +27,7 @@ This can be valuable knowledge when trying to improve performance on search engi
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/](https://github.com/)[aviel-fahl]/[injected-links].git
+    git clone https://github.com/[aviel-fahl]/[injected-links].git
     cd [injected-links]
     ```
 
@@ -47,9 +46,8 @@ This can be valuable knowledge when trying to improve performance on search engi
 Run the script from your terminal, providing the URL you want to scan as the first argument:
 
 ```bash
-python injected_links.py [https://www.example.com/page-with-dynamic-content](https://www.example.com/page-with-dynamic-content)
+python injected_links.py <URL_TO_SCAN>
 ```
-````
 
 - Replace `https://www.example.com/page-with-dynamic-content` with the URL you want to scan.
 
@@ -91,7 +89,7 @@ Contributions are welcome\! If you find bugs or have ideas for improvements, ple
 
 ## License
 
-This project is licensed under the MIT License - see the https://opensource.org/license/mit file for details.
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
 
 ## Acknowledgments
 
